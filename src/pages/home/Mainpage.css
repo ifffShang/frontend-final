@@ -1,0 +1,102 @@
+/* Mainpage.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .main-btn {
+    background-color: palevioletred;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    max-width: 100px;
+  }
+  
+  button:hover {
+    background-color: pink;
+  }
+  
+  .posts-list {
+    list-style: none;
+    padding: 0;
+    width: 800px;
+  }
+  
+  .post-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .post-item h2 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .post-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .post-item .actions {
+    margin-top: 10px;
+  }
+  
+  .post-item .actions button {
+    margin-right: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .no-posts {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+  }
+
+  .post-text {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;     /* Rounded corners */
+    padding: 10px;          /* Space inside the border */
+    margin: 10px 0;         /* Space outside the border */
+    background-color: #f9f9f9; /* Optional: Light background for better visibility */
+    color: #333;           /* Text color */
+    word-wrap: break-word;  /* Break words if they are too long */
+    overflow-wrap: break-word; /* Modern equivalent for breaking long words */
+    white-space: normal;    /* Allow text to wrap to the next line */
+  }
+  @media (max-width: 768px) {
+    .post-item {
+      width: 400px;
+    }
+    
+  }
+  
+  

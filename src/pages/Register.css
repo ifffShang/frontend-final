@@ -1,0 +1,45 @@
+/* register.css */
+
+.register_form {
+    margin-top: 50px;
+    max-width: 400px; /* Set the max width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+} 
+
+  
+/* Label styling */
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    /* text-align: center; */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%; /* 输入框宽度占满整个表单 */
+    padding: 12px; /* 增加内边距，让输入框更大 */
+    margin-bottom: 20px; /* 输入框之间的间距 */
+    border: 1px solid #ccc; /* 边框颜色 */
+    border-radius: 4px; /* 圆角 */
+    margin-left: auto; /* 向左对齐 */
+    margin-right: auto; /* 向右对齐 */
+    font-size: 16px; /* 输入框内文字大小 */
+}
+
+button {
+    width: 90%;
+    margin-left: auto; /* 向左对齐 */
+    margin-right: auto; /* 向右对齐 */
+}
+
+input:focus {
+    outline: none;
+    border-color: #007BFF; /* 输入框获得焦点时的边框颜色 */
+}
+  
