@@ -16,8 +16,8 @@ import VisitorMainpage from "./pages/home/VisitorMainpage.jsx"
 import UserProfile from './pages/UserProfile.js'
 
 // backend url
-axios.defaults.baseURL = 'http://localhost:8000'
-// axios.defaults.baseURL = 'https://backend-final-0cv0.onrender.com'
+// axios.defaults.baseURL = 'http://localhost:8000'
+axios.defaults.baseURL = 'https://backend-final-790s.onrender.com'
 axios.defaults.withCredentials = true
 
 function App() {
