@@ -17,7 +17,7 @@ import UserProfile from './pages/UserProfile.js'
 
 // backend url
 axios.defaults.baseURL = 'http://localhost:8000'
-// axios.defaults.baseURL = 'https://final-frontend-isa7.onrender.com'
+// axios.defaults.baseURL = 'https://backend-final-0cv0.onrender.com'
 axios.defaults.withCredentials = true
 
 function App() {
