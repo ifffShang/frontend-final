@@ -34,7 +34,7 @@ function EditPage() {
     e.preventDefault(); // Prevent default form submission behavior
     try {
       // Send a PUT request to update the post
-      const response = await axios.put(`/api/posts/${postId}`, { text });
+      const response = await axios.put(`/api/posts/${postId}`, { text },{ withCredentials: true });
       console.log('Post updated:', response.data);
       navigate('/main'); // Navigate back to the homepage after successful update
     } catch (err) {
