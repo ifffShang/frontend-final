@@ -38,7 +38,7 @@ function Mainpage() {
       return;
     }
     try {
-      await axios.delete(`/api/posts/${postId}`);
+      await axios.delete(`/api/posts/${postId}`,{ withCredentials: true });
       setPosts((prevPosts) => prevPosts.filter((post) => post._id !== postId));
     } catch (err) {
       console.error(err);
