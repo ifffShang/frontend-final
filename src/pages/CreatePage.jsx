@@ -11,7 +11,7 @@ function CreatePage() {
     e.preventDefault();
 
     try{
-      const response = await axios.post('/api/posts', { text });
+      const response = await axios.post('/api/posts', { text },{ withCredentials: true });
       console.log('Post created successfully:', response.data);
       navigate('/main'); 
     }catch(err){
